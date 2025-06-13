@@ -6,6 +6,9 @@
   RewriteRule ^ index.html [L]
 </IfModule>
 
+AddType application/javascript .jsx
+AddType application/javascript .js
+
 <IfModule mod_headers.c>
   Header set X-Powered-By "CBD Suzy"
 </IfModule>
